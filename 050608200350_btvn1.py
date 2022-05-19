@@ -1,5 +1,0 @@
-stg = input('Nhập Số tiền gửi tiết kiệm: ')
-ls = input('Nhập lãi suất: ')
-kh = input('Nhập kỳ hạn(năm): ')
-tnd = int(stg) * (1 + int(ls) / 100)**int(kh)
-print('Số tiền bạn sẽ nhận được: ', tnd)
